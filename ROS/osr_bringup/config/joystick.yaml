@@ -20,7 +20,7 @@ teleop_twist_joy_node:
             yaw: 1.0 # [rad/s] max vel when we press turbo
 
         # In place rotation
-        axis_angular.pitch: 6
+        axis_angular.pitch: 2
         scale_angular.yaw: -1.25
         
         # By default this buttons employ a dead man switch, so if you go of the buttons it is going to send a zero speed reference until it stop
